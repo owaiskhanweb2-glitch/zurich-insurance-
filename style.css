@@ -1,0 +1,166 @@
+* {
+    margin: 0%;
+    padding: 0%;  
+}
+
+/* navber css */
+.navbar {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background: white;
+    height: 90px;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    letter-spacing: 1px;
+}
+
+.navbar-brand img {
+    height: 100px;
+}
+
+.nav-link {
+    position: relative;
+    transition: 0.3s;
+}
+
+.nav-link:hover {
+    color: #ffc107 !important;
+}
+
+/* Underline hover effect */
+.nav-link::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ffc107;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 22px;
+}
+
+ul a {
+    text-decoration: none;
+}
+
+
+/* footer css */
+.footer {
+    background: #000000;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+
+.footer-box {
+    /* height: 200px; */
+    width: 250px;
+    padding: 15px;
+}
+
+.footer-box h2,
+.footer-box h3 {
+    margin-bottom: 15px;
+    color: gray;
+    font-weight: bolder;
+
+}
+
+.footer-box p {
+    font-size: 13px;
+    line-height: 1.6;
+}
+
+.footer-box ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    font-size: 13px;
+    gap: 0;
+}
+
+.footer-box ul li {
+    margin: 8px 0;
+}
+
+.footer-box ul li a {
+    color: #ccc;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.footer-box ul li a:hover {
+    color: #00bcd4;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    border-top: 1px solid #444;
+    padding-top: 10px;
+    font-size: 14px;
+}
+
+/* Home Image  */
+.home-image img {
+    width: 100%;
+    padding-top: 90px;
+}
+
+/* Our Serviceheading */
+#services h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    position: relative;
+    display: inline-block;
+    text-decoration: underline #ffc107;
+
+}
+.container{
+    text-decoration-line: none;
+}
+/* Our Services Insurence Cards */
+.card {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    height: 130px;
+    width: 350px;
+    color: #3c3a3a;
+    border-radius: 25px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.card:hover {
+    border: 1px solid #ffc107;
+    color: #ffc107;
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+a{
+    text-decoration: none;
+}
